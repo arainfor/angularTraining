@@ -1,0 +1,16 @@
+<div>
+  <form name="authorForm" novalidate>
+    <lablel translate>First Name</lablel>
+    <input ng-disabled="readOnly" type="text" name="firstName" ng-model="author.firstName" required my-colorful-validation>
+    <span translate ng-show="authorForm.$dirty && authorForm.firstName.$error.required">Required Field</span>
+    <span translate ng-show="authorForm.$dirty && authorForm.firstName.$error.colorValidation">Too Short</span><br/>
+    <lablel translate>Last Name</lablel>
+    <input ng-disabled="readOnly" type="text" name="lastName" ng-model="author.lastName" required my-colorful-validation>
+    <span translate ng-show="authorForm.$dirty && authorForm.lastName.$error.required">Required Field</span>
+    <span translate ng-show="authorForm.$dirty && authorForm.firstName.$error.colorValidation">Too Short</span><br/>
+    <lablel translate>Memo</lablel>
+    <input ng-disabled="readOnly" type="text" name="memo" ng-model="author.memo" my-colorful-validation>
+    <span translate ng-show="authorForm.$dirty && authorForm.firstName.$error.colorValidation">Too Short</span><br/>
+    <button class="btn btn-primary" ng-disabled="authorForm.$invalid" ng-click="buttonCallback()" ng-bind-html="buttonLabel"></button>
+  </form>
+</div>

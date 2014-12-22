@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: src/app/components/author/components/add/author_add.html
+msgid "Add new Author"
+msgstr ""
+
+#: src/index.html
+msgid "Author"
+msgstr ""
+
+#: src/index.html
+msgid "Book"
+msgstr ""
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "First Name"
+msgstr ""
+
+#: src/index.html
+msgid "Home"
+msgstr ""
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Last Name"
+msgstr ""
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Memo"
+msgstr ""
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Required Field"
+msgstr ""
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Too Short"
+msgstr ""
+
+#: src/app/components/author/components/author_list.html
+msgid "delete"
+msgstr ""
+
+#: src/app/components/author/components/author_list.html
+msgid "details"
+msgstr ""
+
+#: src/app/components/author/components/author_list.html
+msgid "edit"
+msgstr ""

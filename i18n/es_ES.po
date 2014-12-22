@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: training\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-05 09:40-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/app/components/author/components/add/author_add.html
+msgid "Add new Author"
+msgstr "es Add Author"
+
+#: src/index.html
+msgid "Author"
+msgstr "es Author"
+
+#: src/index.html
+msgid "Book"
+msgstr "es Book"
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "First Name"
+msgstr "es First Name"
+
+#: src/index.html
+msgid "Home"
+msgstr "es Home"
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Last Name"
+msgstr "es Last Name"
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Memo"
+msgstr "es Menu"
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Required Field"
+msgstr "es Requried Field"
+
+#: src/app/components/author/components/author-editor/author-editor.html
+msgid "Too Short"
+msgstr "es Too Short"
+
+#: src/app/components/author/components/author_list.html
+msgid "delete"
+msgstr "es Delete"
+
+#: src/app/components/author/components/author_list.html
+msgid "details"
+msgstr "es Details"
+
+#: src/app/components/author/components/author_list.html
+msgid "edit"
+msgstr "es Edit"

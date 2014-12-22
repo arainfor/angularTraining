@@ -1,0 +1,27 @@
+<div>
+  <table class="table">
+    <tr class="row">
+      <!-- TODO : add sorting  -->
+      <th class="col-md-3 sort-link" ng-click="orderProperty = 'firstName';reverse=!reverse">Firstname <i ></i></th>
+      <th class="col-md-3 sort-link" ng-click="orderProperty = 'lastName';reverse=!reverse">Lastname <i ></i></th>
+      <th class="col-md-3">Actions</th>
+    </tr>
+    <tr class="row">
+      <td class="col-md-6" colspan="2">
+         <!-- TODO : add filtering  -->
+        <input type="text" class="form-control" ng-model="searchFilter"/>
+      </td>
+      <td class="col-md-3"></td>
+    </tr>
+    <tr class="row" ng-repeat="author in authorCtrl.authors | filter : {'firstName' : searchFilter} | orderBy : orderProperty : reverse">
+      <td class="col-md-3">{{author.firstName}}</td>
+      <td class="col-md-3">{{author.lastName}}</td>
+      <td class="col-md-3">
+        <button class="btn btn-default" ng-click="authorCtrl.details(author)"><i class="glyphicon glyphicon-th-list"></i><span translate>details</span></button>
+        <button class="btn btn-primary" ng-click="authorCtrl.edit(author)"><i class="glyphicon glyphicon-pencil"></i><span translate>edit</span></button>
+        <button class="btn btn-danger" ng-click="authorCtrl.remove(author)"><i class="glyphicon glyphicon-trash"></i><span translate>delete</span></button>
+      </td>
+    </tr>
+  </table>
+  <button class="btn btn-default" ui-sref="author.create">Add new author</button>
+</div>

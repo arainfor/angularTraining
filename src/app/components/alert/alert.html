@@ -1,0 +1,8 @@
+<div ng-show="alertCtrl.alertBinding.message" ng-controller="AlertController as alertCtrl">
+  <div class="alert alert-{{alertCtrl.alertBinding.type}} alert-dismissable">
+    <button type="button" class="close" ng-click="alertCtrl.close()">
+      &times;
+    </button>
+    <strong>{{ alertCtrl.alertBinding.message }}</strong>
+  </div>
+</div>
